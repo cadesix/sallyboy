@@ -1,0 +1,29 @@
+@font-face{
+  font-family: matter;
+  src: url(matter-regular.otf);
+}
+
+body {
+  font-family: matter;
+  color: white;
+  background-color: #2e3428;
+}
+
+.masthead {
+  text-align: center;
+  font-size: 72px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.tracktitle {
+  text-align: center;
+  line-height: 50px;
+}
+
+audio {
+  margin-left: 50%;
+  transform: translate(-50%);
+}
