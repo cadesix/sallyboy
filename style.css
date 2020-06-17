@@ -1,12 +1,7 @@
-@font-face{
-  font-family: matter;
-  src: url(matter-regular.otf);
-}
-
 body {
-  font-family: matter;
+  font-family: helvetica;
   color: white;
-  background-color: #2e3428;
+  background-color: #21374f;
 }
 
 .masthead {
@@ -15,12 +10,26 @@ body {
 }
 
 .intro {
+  font-family: span, serif;
   text-align: center;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 
 .tracktitle {
   text-align: center;
   line-height: 50px;
+  font-size: max(1vw, 30px);
+  margin-top: 1%;
+}
+
+img {
+  width: 40vw;
+  height: auto;
+  margin-left: 50%;
+  transform: translate(-50%);
 }
 
 audio {
