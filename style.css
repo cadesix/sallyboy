@@ -1,7 +1,7 @@
 body {
   font-family: helvetica;
   color: white;
-  background-color: #21374f;
+  background-color: #2e3946;
 }
 
 .masthead {
@@ -10,12 +10,11 @@ body {
 }
 
 .intro {
-  font-family: span, serif;
   text-align: center;
-  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-  line-height: calc(1.3em + (1.5 - 1.2) * ((100vw - 300px)/(1600 - 300)));
+  font-size: 20px;
   margin-left: 2vw;
   margin-right: 2vw;
+  margin-bottom: 1vh;
 }
 
 .tracktitle {
@@ -26,13 +25,14 @@ body {
 }
 
 img {
-  width: 40vw;
-  height: auto;
+  height: 5vh;
+  padding-bottom: 2vh;
   margin-left: 50%;
   transform: translate(-50%);
 }
 
 audio {
+  margin-bottom: 5vh;
   margin-left: 50%;
   transform: translate(-50%);
 }
